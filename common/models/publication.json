@@ -1,0 +1,39 @@
+{
+  "name": "Publication",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "viewsNumber": {
+      "type": "number"
+    },
+    "sharesNumber": {
+      "type": "number"
+    },
+    "likesNumber": {
+      "type": "number"
+    },
+    "date": {
+      "type": "date"
+    },
+    "status": {
+      "type": "string",
+      "required": true,
+      "default": "private"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
