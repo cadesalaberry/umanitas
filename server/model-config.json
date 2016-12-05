@@ -55,5 +55,17 @@
   "university": {
     "dataSource": "db",
     "public": true
+  },
+  "teacher": {
+    "dataSource": "db",
+    "public": true
+  },
+  "level": {
+    "dataSource": "db",
+    "public": true
+  },
+  "field": {
+    "dataSource": "db",
+    "public": true
   }
 }
