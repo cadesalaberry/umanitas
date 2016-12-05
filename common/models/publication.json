@@ -47,6 +47,11 @@
       "type": "hasMany",
       "model": "opinion",
       "foreignKey": ""
+    },
+    "fields": {
+      "type": "hasMany",
+      "model": "field",
+      "foreignKey": ""
     }
   },
   "acls": [],
