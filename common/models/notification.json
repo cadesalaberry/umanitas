@@ -1,0 +1,30 @@
+{
+  "name": "notification",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "type": "object",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "iconType": {
+      "type": "icon",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

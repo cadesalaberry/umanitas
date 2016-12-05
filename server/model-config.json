@@ -47,5 +47,13 @@
   "opinion": {
     "dataSource": "db",
     "public": true
+  },
+  "notification": {
+    "dataSource": "db",
+    "public": true
+  },
+  "university": {
+    "dataSource": "db",
+    "public": true
   }
 }
