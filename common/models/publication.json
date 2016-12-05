@@ -37,7 +37,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "concerns": {
+      "type": "hasMany",
+      "model": "subject",
+      "foreignKey": ""
+    },
+    "opinions": {
+      "type": "hasMany",
+      "model": "opinion",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

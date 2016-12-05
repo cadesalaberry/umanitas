@@ -24,7 +24,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "publications": {
+      "type": "hasMany",
+      "model": "Publication",
+      "foreignKey": "owner"
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -39,5 +39,13 @@
   "Member": {
     "dataSource": "db",
     "public": true
+  },
+  "subject": {
+    "dataSource": "db",
+    "public": true
+  },
+  "opinion": {
+    "dataSource": "db",
+    "public": true
   }
 }
