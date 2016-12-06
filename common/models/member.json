@@ -1,6 +1,6 @@
 {
   "name": "Member",
-  "base": "PersistedModel",
+  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
