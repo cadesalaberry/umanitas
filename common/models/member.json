@@ -6,11 +6,11 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "firstName": {
       "type": "string",
       "required": true
     },
-    "surname": {
+    "lastName": {
       "type": "string",
       "required": true
     },
@@ -19,8 +19,23 @@
       "required": true
     },
     "country": {
-      "type": "string",
-      "required": true
+      "type": "string"
+    },
+    "teacher": {
+      "type": "boolean",
+      "default": false
+    },
+    "phone": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "sex": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
     }
   },
   "validations": [],
