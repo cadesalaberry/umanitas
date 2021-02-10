@@ -22,7 +22,7 @@
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "cross-env": "^3.0.0",
-    "ejs": "^2.5.2",
+    "ejs": "^3.1.6",
     "express-ejs-layouts": "^2.2.0",
     "helmet": "^3.6.1",
     "loopback": "^3.0.0-alpha.1",
@@ -31,7 +31,7 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^1.0.1",
+    "strong-error-handler": "^3.5.0",
     "webpack": "^1.13.2",
     "snyk": "^1.232.0"
   },
